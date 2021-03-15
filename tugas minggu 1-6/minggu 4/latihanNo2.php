@@ -23,7 +23,7 @@ class Item{
 }
 
 class Topi extends item	{
-	private $model='Koboy';
+	private $model='Songkok';
 	public function modelTopi()
 	{
 		$model= $this -> model;
@@ -32,8 +32,8 @@ class Topi extends item	{
 }
 
 class Celana extends item{
-	private $tipe='Panjang';
-	private $model='Jeans';
+	private $tipe='Pendek';
+	private $model='Chino';
 		public function tipeCelana()
 	{
 		$tipe= $this -> tipe;
@@ -47,7 +47,7 @@ class Celana extends item{
 }
 
 class Baju extends item{
-	private $tipe="Kaos";
+	private $tipe="Baju";
 	public function Tipebaju()
 	{
 		$tipe= $this -> tipe;
@@ -60,11 +60,11 @@ $Celana = new Topi();
 $Baju = new Baju();
 
 $baju = $Baju-> Tipebaju();
-$nama = $Baju-> Nama('Eiger');
-$warna = $Baju-> Warna('Biru');
+$nama = $Baju-> Nama('Parka');
+$warna = $Baju-> Warna('Hijau');
 $ukuran = $Baju-> Ukuran('L');
 
-echo "<h3>Produk Baju</h3>";
+echo "<h3>Baju </h3>";
 echo $baju;
 echo $nama;
 echo $warna;
