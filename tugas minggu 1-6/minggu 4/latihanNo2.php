@@ -15,10 +15,10 @@ class Item{
 		return "Warna : ".$warna."<br>";
 	}
 
-	public function Nama($item)
+	public function Jenis($item)
 	{
-		$Nama = $this -> item = $item;
-		return "Nama : ".$Nama."<br>";
+		$Jenis = $this -> item = $item;
+		return "Jenis : ".$Jenis."<br>";
 	}
 }
 
@@ -60,13 +60,13 @@ $Celana = new Topi();
 $Baju = new Baju();
 
 $baju = $Baju-> Tipebaju();
-$nama = $Baju-> Nama('Parka');
+$jenis = $Baju-> Jenis('Parka');
 $warna = $Baju-> Warna('Hijau');
 $ukuran = $Baju-> Ukuran('L');
 
 echo "<h3>Baju </h3>";
 echo $baju;
-echo $nama;
+echo $jenis;
 echo $warna;
 echo $ukuran;
 ?>
