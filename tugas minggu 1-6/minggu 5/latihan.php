@@ -71,9 +71,9 @@ class luasLingkaran implements hitungLuas {
 	}
 }
 
-$persegi = new luasPersegi(15);
-$segitiga = new luasSegitiga(15,7);
-$lingkaran = new luasLingkaran(15);
+$persegi = new luasPersegi(20);
+$segitiga = new luasSegitiga(14,7);
+$lingkaran = new luasLingkaran(30);
 
 $luasPersegi = $persegi -> hitungLuasPersegi();
 $luasSegitiga = $segitiga -> hitungLuasSegitiga();

@@ -52,12 +52,11 @@ class MobilBMW extends mobilLengkap
 {
 
 }
-// panggil inherit dan panggil method dari class induknya
+
 $tes1=new MobilBMW();
 $tv=$tes1 -> nontonTv();
 echo $tv;
 
-// panggil class MobilBMWberaksi
 $tes2=new MobilMBWberaksi();
 $on=$tes2 -> HidupkanMobil();
 $off=$tes2 -> MatikanMobil();
